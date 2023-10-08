@@ -97,8 +97,18 @@ bundle install
 To start you can open your terminal and in the folder write
 
 ```bash
-ruby main.rb
+rails db:drop db:create db:migrate db:seed
 ```
+
+```bash
+rails s
+```
+
+````
+
+```bash
+
+````
 
 <p align="right"><a href="#readme-top">👆</a></p>
 
@@ -129,7 +139,7 @@ ruby main.rb
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/yosaddis/hello-rails-react/issues).
 
 <p align="right"><a href="#readme-top">👆</a></p>
 
